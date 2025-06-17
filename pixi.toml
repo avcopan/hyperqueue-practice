@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Andreas Copan <avcopan@gmail.com>"]
+channels = ["conda-forge"]
+name = "hyperqueue-practice"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+
+[pypi-dependencies]
+hyperqueue = ">=0.22.0, <0.23"
