@@ -195,3 +195,7 @@ cython_debug/
 # pixi environments
 .pixi
 *.egg-info
+
+# Project-specific
+*.stdout
+*.stderr
