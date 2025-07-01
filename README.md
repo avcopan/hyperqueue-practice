@@ -32,3 +32,6 @@ hq alloc list
 
 If you have started the server and allocated a queue, you are now ready to execute a
 workflow with hyperqueue.
+To get started, you can test out the examples:
+1. [Simple](examples/0simple): A minimal workflow without dependencies
+2. [Dependency](examples/1dependency): A minimal workflow with a dependency
