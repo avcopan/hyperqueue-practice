@@ -1,6 +1,12 @@
+import os
+from pathlib import Path
+
 from hyperqueue import Job, Client
 
-client = Client("/home/avcopan/.hq-server/hq-current")
+HOME = Path(os.environ["HOME"])
+HQ_PATH = HOME / ".hq-server" / "hq-current"
+
+client = Client(HQ_PATH)
 
 job = Job()
 
