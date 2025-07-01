@@ -21,7 +21,11 @@ hq server start &
 
 You can then add an allocation queue to the server as follows.
 ```
+# For SLURM:
 hq alloc add slurm --time-limit 1h -- --partition=<partition name> --mem=10G --ntasks=1
+
+# For PBS:
+hq alloc add pbs --time-limit 1h -- -q <queue name> -A <account name>
 ```
 To check that the queue was successfully allocated, use the following.
 ```
